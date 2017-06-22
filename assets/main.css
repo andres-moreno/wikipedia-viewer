@@ -1,0 +1,44 @@
+/* Styling for Wikipedia viewer
+
+   background of page: light gray
+   button for random article and link to code: gray
+   boxes with description of article: gray
+ */
+html, body {
+    height:100%;
+    width:100%;
+}
+
+body {
+    background:#ededef;
+}
+
+/* match the styling of the gray boxes for search */
+.gray-format {
+    background-color:#838384;
+    color:#f9f9fc;
+    border-radius:5px;
+}
+
+/* Put the results of searches in nice gray boxes */
+.ul, li {
+    list-style-type:none;
+    border-radius:5px;
+    background-color:#838384;
+    color:#f9f9fc;
+    padding:1em;
+    margin-bottom:2em;
+}
+
+/* Get rid of text styling for anchor elements */
+a {
+    text-decoration: none !important;
+    color:#f9f9fc;
+}
+
+/* Flip from light to black text when hovering over hyperlink.
+   Note that we have turned off all text styling for anchor
+   elements, hence this effect. */
+#github:hover, #random:hover, li:hover {
+    color:black;
+}

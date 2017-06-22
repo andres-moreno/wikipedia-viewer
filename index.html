@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Wikipedia Viewer</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="./assets/main.css" >
+
+    <!-- make font awesome available -->
+    <script src="https://use.fontawesome.com/06a408e274.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10" >
+
+          <!-- Page title: Wikipedia Viewer  -->
+
+          <div class="my-5" >
+            <h1>
+              <p id="quote"
+                 class="text-center text-muted p-2">
+                Wikipedia Viewer
+              </p>
+            </h1>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row justify-content-center">
+        <div class="text-center" >
+
+          <!-- Random Wikipedia page -->
+
+          <a href="https://en.wikipedia.org/wiki/Special:Random"
+             target="_blank" >
+            <p id="random"
+               class="btn text-center gray-format px-3 py-2">Random Article</p>
+          </a>
+
+          <!-- Search box -->
+
+          <div class="input-group my-4"
+               style="width:22em;">
+            <input id="searchBox"
+                   type="text"
+                   class="form-control my-2"
+                   placeholder="Enter search term"
+                   aria-describedby="basic-addon2">
+            <span id="searchIcon"
+                  class="input-group-addon my-2 gray-format"
+                  id="basic-addon2"><i class="fa fa-search"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <ul id="wikiLinks"
+            class="my-4 px-0">
+        </ul>
+
+        <hr class="mt-4" >
+        <a href="file:///home/afmoreno/data/freeCodeCamp/portfolio/index.html"
+           target="_blank" >
+          <p id="github"
+             class="text-center gray-format p-2">
+            GitHub repository&nbsp;&nbsp;
+            <i class="fa fa-github-square fa-2x" aria-hidden="true"></i></p>
+        </a>
+
+      </div>
+
+
+      <!-- jQuery first, then Tether, then Bootstrap JS. -->
+
+      <!-- Note that we need to use JQuery 3.2 for this work work because prefilter
+           is not available in the previous release-->
+      <script
+          src="https://code.jquery.com/jquery-3.2.1.js"
+          integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+          crossorigin="anonymous">
+      </script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+              integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+              crossorigin="anonymous"></script>
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+              integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+              crossorigin="anonymous"></script>
+
+      <!-- main JS code: use Forismatic API to get quotes -->
+
+      <script src="./assets/main.js"> </script>
+  </body>
+</html>
