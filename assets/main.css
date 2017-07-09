@@ -42,3 +42,8 @@ a {
 #github:hover, #random:hover, li:hover {
     color:black;
 }
+
+/* Set up some widths to make the layout more pleasing */
+#lineBreak {
+    max-width:32em;
+}
