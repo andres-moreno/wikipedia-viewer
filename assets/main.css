@@ -43,6 +43,11 @@ a {
     color:black;
 }
 
+/* Make the text to GitHub gray */
+#github {
+    color:gray;
+}
+
 /* Set up some widths to make the layout more pleasing */
 #lineBreak {
     max-width:32em;
