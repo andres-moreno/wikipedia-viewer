@@ -52,3 +52,7 @@ a {
 #lineBreak {
     max-width:32em;
 }
+
+#searchBox {
+    width:22em;
+}
